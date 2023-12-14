@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>6DoF Data Labeler</title>
+    <style ref="css/main.css"></style>
+    <style>
+    </style>
+</head>
+
+<body>
+    <!-- Base div containing everything? -->
+    <div id="left">
+        <div id="top">
+            <!-- <canvas id="three_object_selector_canvas"></canvas> -->
+        </div>
+        <div id="bottom">
+            <div id="obj-adder">
+                Select object:
+                <select id="obj-selector">
+                    <option value="-1">Select object</option>
+                </select>
+                <button id="obj-add">Add</button>
+            </div>
+            <div id="obj-list">
+                <table id="obj-list-table">
+                </table>
+            </div>
+        </div>
+    </div>
+    <div id="right">
+        <canvas id="three_main_canvas"></canvas>
+        <div id="save-div">
+            <button id="save-button">Save</button>
+        </div>
+        <div id="save-and-render-div">
+            <button id="save-and-render-button">Save and render</button>
+        </div>
+
+        <div id="interaction-tools-div">
+            <button id="set-pcl-visiblity">Toggle pointcloud</button>
+        </div>
+    </div>
+
+</body>
+
+</html>

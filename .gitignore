@@ -1,0 +1,14 @@
+.vscode/
+__pycache__/
+src/client/node_modules/
+src/client/dist/
+src/client/dist_old/
+src/server/updated_scene.json
+data/
+data1/
+logs/
+scene_15__object_set_5/
+empty_table_set/
+old_logs/
+seg_real_new.zip
+static/
